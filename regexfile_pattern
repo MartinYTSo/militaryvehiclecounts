@@ -1,0 +1,14 @@
+([a-zA-Z-]+\s*[0-9]+)|(\d\w*\S?[a-zA-Z0-9]+) #this regex pattern will match military vehicles when given a written traffic report:
+
+#For example
+
+A group of T-72s rolling down Vancouver City (will highlight the T-72)
+T72 (will highlight the T-72)
+BMP-30 (will highlight the BMP-30)
+Highway 29 (Will highlight Highway 29 need to fix or get standardized traffic)
+BMP2 (will highlight BMP2)
+BMP1 (will highlight BMP1)
+AK-74 (will highlight AK-74)
+iskander29 (will highlight ISKANDER 29)
+9A51-PRIMA (will highlight 9A51 PRIMA)
+T72 ( will highlight T72)
